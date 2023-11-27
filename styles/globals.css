@@ -1,0 +1,38 @@
+/* ./styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* //TODO use tailwind  */
+body{
+  /* background-color: rgb(186, 167, 167); */
+  /* font-family: sans-serif; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:500;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* border-radius: vh; */
+  background: #00222b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000635;
+  border-radius: 100vh;
+  border: 1px solid #4e4e4e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0032a7;
+}
